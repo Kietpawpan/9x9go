@@ -311,7 +311,9 @@ function reset() {
 	historyBoards = [];
 
 //Montri reset move number
-	document.getElementById('score').innerHTML='';
+	document.getElementById('move').innerHTML='';
+	document.getElementById('bscore').innerHTML='';
+	document.getElementById('wscore').innerHTML='';
 }
 
 function showInvalidMove(x, y) {
