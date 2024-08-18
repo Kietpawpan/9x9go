@@ -1,0 +1,201 @@
+
+.grid-container {
+  margin: 50px 0px 0px 50px;
+  background-color: #111; /* color of the line between cells */
+  display: grid;
+  grid-gap: 1px; /* size of the line between cells */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /*9 x 9 board size */
+  grid-template-rows: minmax(min-content, max-content);
+  padding:3px; /* size of the line around the board */
+  width:450px; /*board width */
+  height:450px; /*board height */
+position:relative;
+
+}
+
+p {
+  margin: -450px 0px 0px 550px;
+  font-size:25px;
+  font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+  width:200px;
+}
+
+.grid-item {
+  /*background-color: BurlyWood; board background color */
+  min-height: 50px; /* space between lines */
+ background-image:url('wood1.jpg'); /*url('wood1.jpg') ; from https://www.stockvault.net/photo/124529/wood-background */
+ background-repeat:none;
+}
+
+.w {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: #fff;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+font-weight:bold;
+
+}
+
+
+.b {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+    /*background-image: radial-gradient(grey, black);*/
+}
+
+.c {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    border: 0px 
+    color: black;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+
+}
+
+
+
+.p {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    padding: 0px;
+
+    background: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+
+    font: 14px Arial, sans-serif;
+    font-weight:bold;
+}
+
+.label {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    border: 0px;
+    color: black;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+}
+
+
+.x {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 25px Arial, sans-serif;
+    font-weight:bold;
+    /*background-image: radial-gradient(grey, black);*/
+}
+
+.t {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 25px Arial, sans-serif;
+    font-weight:bold;
+}
+
+.s{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+}
+
+.xw {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: white;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 25px Arial, sans-serif;
+    font-weight:bold;
+    /*background-image: radial-gradient(grey, black);*/
+}
+
+.tw {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: white;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 25px Arial, sans-serif;
+    font-weight:bold;
+}
+
+.sw{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: white;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+}
+
+
+
