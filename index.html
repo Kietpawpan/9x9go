@@ -19,8 +19,11 @@ position:relative;
 
 }
 
-.container {
-  margin: 50px 0px 0px 50px;
+p {
+  margin: -450px 0px 0px 550px;
+  font-size:25px;
+  font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+  width:200px;
 }
 
 .grid-item {
@@ -41,16 +44,48 @@ position:relative;
     color: #666;
     text-align: center;
 
-    font: 14px Arial, sans-serif;
+    font: 30px Arial, sans-serif;
 font-weight:bold;
 
 }
+
 
 .b {
     border-radius: 50%;
     width: 35px;
     height: 35px;
     padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+    /*background-image: radial-gradient(grey, black);*/
+}
+
+.c {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    border: 0px 
+    color: black;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    font-weight:bold;
+
+}
+
+
+
+.p {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    padding: 0px;
 
     background: black;
     border: 1px solid black;
@@ -65,12 +100,11 @@ font-weight:bold;
 
 
 
-
 </style>
 
 </head>
 <body>
-<div class="grid-container" id='board'>
+<!--
 <span style='position:absolute;margin:-23px 0px 0px -18px;'><div class='b'>9a</div></span>
 <span style='position:absolute;margin:-23px 0px 0px 37px;'><div class='w'>9b</div></span>
 <span style='position:absolute;margin:-23px 0px 0px 92px;'><div class='w'>9c</div></span>
@@ -163,6 +197,22 @@ font-weight:bold;
 
 
 
+-->
+<div class="grid-container" id='board'>
+<span style='position:absolute;margin:107px 0px 0px 111px;'><div class='p'></div></span>
+<span style='position:absolute;margin:107px 0px 0px 337px;'><div class='p'></div></span>
+<span style='position:absolute;margin:221px 0px 0px 224px;'><div class='p'></div></span>
+<span style='position:absolute;margin:335px 0px 0px 111px;'><div class='p'></div></span>
+<span style='position:absolute;margin:335px 0px 0px 337px;'><div class='p'></div></span>
+<span style='position:absolute;margin:197px 0px 0px 202px;'><div class='b'>1</div></span>
+<span style='position:absolute;margin:142px 0px 0px 147px;'><div class='b'>5</div></span>
+<span style='position:absolute;margin:87px 0px 0px 202px;'><div class='w'>2</div></span>
+<span style='position:absolute;margin:307px 0px 0px 257px;'><div class='b'>3</div></span>
+<span style='position:absolute;margin:252px 0px 0px 92px;'><div class='w'>4</div></span>
+<span style='position:absolute;margin:87px 0px 0px 147px;'><div class='w'>6</div></span>
+<span style='position:absolute;margin:142px 0px 0px 92px;'><div class='c'>A</div></span>
+
+
   <div class="grid-item"></div>
   <div class="grid-item"></div>
   <div class="grid-item"></div>
@@ -228,11 +278,9 @@ font-weight:bold;
   <div class="grid-item"></div>
   <div class="grid-item"></div>
 </div>
-<div class='container'>
-9 &times; 9 Go board
-</div>
 
-
+<p><b>Do not play a thank you move.</b><br>
+White 6 gives Black a good chance to play a powerful cut at A, to attack the two white groups at once.</p>
 
 
 
