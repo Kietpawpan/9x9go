@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+<style>
+.grid-container {
+  margin: 50px 0px 0px 50px;
+  background-color: #111; /* color of the line between cells */
+  display: grid;
+  grid-gap: 1px; /* size of the line between cells */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /*9 x 9 board size */
+  grid-template-rows: minmax(min-content, max-content);
+  padding:3px; /* size of the line around the board */
+  width:450px; /*board width */
+  height:450px; /*board height */
+position:relative;
+
+}
+
+.container {
+  margin: 50px 0px 0px 50px;
+}
+
+.grid-item {
+  /*background-color: BurlyWood; board background color */
+  min-height: 50px; /* space between lines */
+ background-image:url('wood1.jpg'); /*url('wood1.jpg') ; from https://www.stockvault.net/photo/124529/wood-background */
+ background-repeat:none;
+}
+
+.w {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: #fff;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 14px Arial, sans-serif;
+font-weight:bold;
+
+}
+
+.b {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+
+    background: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+
+    font: 14px Arial, sans-serif;
+    font-weight:bold;
+}
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="grid-container" id='board'>
+<span style='position:absolute;margin:-23px 0px 0px -18px;'><div class='b'>9a</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 37px;'><div class='w'>9b</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 92px;'><div class='w'>9c</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 147px;'><div class='w'>9d</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 202px;'><div class='w'>9e</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 257px;'><div class='w'>9f</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 313px;'><div class='w'>9g</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 368px;'><div class='w'>9h</div></span>
+<span style='position:absolute;margin:-23px 0px 0px 423px;'><div class='w'>9j</div></span>
+
+<span style='position:absolute;margin:32px 0px 0px -18px;'><div class='b'>8a</div></span>
+<span style='position:absolute;margin:32px 0px 0px 37px;'><div class='w'>8b</div></span>
+<span style='position:absolute;margin:32px 0px 0px 92px;'><div class='w'>8c</div></span>
+<span style='position:absolute;margin:32px 0px 0px 147px;'><div class='w'>8d</div></span>
+<span style='position:absolute;margin:32px 0px 0px 202px;'><div class='w'>8e</div></span>
+<span style='position:absolute;margin:32px 0px 0px 257px;'><div class='w'>8f</div></span>
+<span style='position:absolute;margin:32px 0px 0px 313px;'><div class='w'>8g</div></span>
+<span style='position:absolute;margin:32px 0px 0px 368px;'><div class='w'>8h</div></span>
+<span style='position:absolute;margin:32px 0px 0px 423px;'><div class='w'>8j</div></span>
+
+<span style='position:absolute;margin:87px 0px 0px -18px;'><div class='b'>7a</div></span>
+<span style='position:absolute;margin:87px 0px 0px 37px;'><div class='w'>7b</div></span>
+<span style='position:absolute;margin:87px 0px 0px 92px;'><div class='w'>7c</div></span>
+<span style='position:absolute;margin:87px 0px 0px 147px;'><div class='w'>7d</div></span>
+<span style='position:absolute;margin:87px 0px 0px 202px;'><div class='w'>7e</div></span>
+<span style='position:absolute;margin:87px 0px 0px 257px;'><div class='w'>7f</div></span>
+<span style='position:absolute;margin:87px 0px 0px 313px;'><div class='w'>7g</div></span>
+<span style='position:absolute;margin:87px 0px 0px 368px;'><div class='w'>7h</div></span>
+<span style='position:absolute;margin:87px 0px 0px 423px;'><div class='w'>7j</div></span>
+
+<span style='position:absolute;margin:142px 0px 0px -18px;'><div class='b'>6a</div></span>
+<span style='position:absolute;margin:142px 0px 0px 37px;'><div class='w'>6b</div></span>
+<span style='position:absolute;margin:142px 0px 0px 92px;'><div class='w'>6c</div></span>
+<span style='position:absolute;margin:142px 0px 0px 147px;'><div class='w'>6d</div></span>
+<span style='position:absolute;margin:142px 0px 0px 202px;'><div class='w'>6e</div></span>
+<span style='position:absolute;margin:142px 0px 0px 257px;'><div class='w'>6f</div></span>
+<span style='position:absolute;margin:142px 0px 0px 313px;'><div class='w'>6g</div></span>
+<span style='position:absolute;margin:142px 0px 0px 368px;'><div class='w'>6h</div></span>
+<span style='position:absolute;margin:142px 0px 0px 423px;'><div class='w'>6j</div></span>
+
+<span style='position:absolute;margin:197px 0px 0px -18px;'><div class='b'>5a</div></span>
+<span style='position:absolute;margin:197px 0px 0px 37px;'><div class='w'>5b</div></span>
+<span style='position:absolute;margin:197px 0px 0px 92px;'><div class='w'>5c</div></span>
+<span style='position:absolute;margin:197px 0px 0px 147px;'><div class='w'>5d</div></span>
+<span style='position:absolute;margin:197px 0px 0px 202px;'><div class='w'>5e</div></span>
+<span style='position:absolute;margin:197px 0px 0px 257px;'><div class='w'>5f</div></span>
+<span style='position:absolute;margin:197px 0px 0px 313px;'><div class='w'>5g</div></span>
+<span style='position:absolute;margin:197px 0px 0px 368px;'><div class='w'>5h</div></span>
+<span style='position:absolute;margin:197px 0px 0px 423px;'><div class='w'>5j</div></span>
+
+<span style='position:absolute;margin:252px 0px 0px -18px;'><div class='b'>4a</div></span>
+<span style='position:absolute;margin:252px 0px 0px 37px;'><div class='w'>4b</div></span>
+<span style='position:absolute;margin:252px 0px 0px 92px;'><div class='w'>4c</div></span>
+<span style='position:absolute;margin:252px 0px 0px 147px;'><div class='w'>4d</div></span>
+<span style='position:absolute;margin:252px 0px 0px 202px;'><div class='w'>4e</div></span>
+<span style='position:absolute;margin:252px 0px 0px 257px;'><div class='w'>4f</div></span>
+<span style='position:absolute;margin:252px 0px 0px 313px;'><div class='w'>4g</div></span>
+<span style='position:absolute;margin:252px 0px 0px 368px;'><div class='w'>4h</div></span>
+<span style='position:absolute;margin:252px 0px 0px 423px;'><div class='w'>4j</div></span>
+
+<span style='position:absolute;margin:307px 0px 0px -18px;'><div class='b'>3a</div></span>
+<span style='position:absolute;margin:307px 0px 0px 37px;'><div class='w'>3b</div></span>
+<span style='position:absolute;margin:307px 0px 0px 92px;'><div class='w'>3c</div></span>
+<span style='position:absolute;margin:307px 0px 0px 147px;'><div class='w'>3d</div></span>
+<span style='position:absolute;margin:307px 0px 0px 202px;'><div class='w'>3e</div></span>
+<span style='position:absolute;margin:307px 0px 0px 257px;'><div class='w'>3f</div></span>
+<span style='position:absolute;margin:307px 0px 0px 313px;'><div class='w'>3g</div></span>
+<span style='position:absolute;margin:307px 0px 0px 368px;'><div class='w'>3h</div></span>
+<span style='position:absolute;margin:307px 0px 0px 423px;'><div class='w'>3j</div></span>
+
+<span style='position:absolute;margin:362px 0px 0px -18px;'><div class='b'>2a</div></span>
+<span style='position:absolute;margin:362px 0px 0px 37px;'><div class='w'>2b</div></span>
+<span style='position:absolute;margin:362px 0px 0px 92px;'><div class='w'>2c</div></span>
+<span style='position:absolute;margin:362px 0px 0px 147px;'><div class='w'>2d</div></span>
+<span style='position:absolute;margin:362px 0px 0px 202px;'><div class='w'>2e</div></span>
+<span style='position:absolute;margin:362px 0px 0px 257px;'><div class='w'>2f</div></span>
+<span style='position:absolute;margin:362px 0px 0px 313px;'><div class='w'>2g</div></span>
+<span style='position:absolute;margin:362px 0px 0px 368px;'><div class='w'>2h</div></span>
+<span style='position:absolute;margin:362px 0px 0px 423px;'><div class='w'>2j</div></span>
+
+<span style='position:absolute;margin:418px 0px 0px -18px;'><div class='b'>1a</div></span>
+<span style='position:absolute;margin:418px 0px 0px 37px;'><div class='w'>1b</div></span>
+<span style='position:absolute;margin:418px 0px 0px 92px;'><div class='w'>1c</div></span>
+<span style='position:absolute;margin:418px 0px 0px 147px;'><div class='w'>1d</div></span>
+<span style='position:absolute;margin:418px 0px 0px 202px;'><div class='w'>1e</div></span>
+<span style='position:absolute;margin:418px 0px 0px 257px;'><div class='w'>1f</div></span>
+<span style='position:absolute;margin:418px 0px 0px 313px;'><div class='w'>1g</div></span>
+<span style='position:absolute;margin:418px 0px 0px 368px;'><div class='w'>1h</div></span>
+<span style='position:absolute;margin:418px 0px 0px 423px;'><div class='w'>1j</div></span>
+
+
+
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+<div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+</div>
+<div class='container'>
+9 &times; 9 Go board
+</div>
+
+
+
+
+
+
+</body>
+</html>
