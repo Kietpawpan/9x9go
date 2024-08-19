@@ -31,5 +31,5 @@ var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 11. A square mark on the white stone at af: Swaf
 12. A circle mark on the black stone at ac: Cbac
 13. A circle mark on the white stone at ec: Cwec
-14. Comments are text.
+14. Comments are text in <p> tag.
  
