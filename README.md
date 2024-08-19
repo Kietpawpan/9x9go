@@ -39,3 +39,5 @@ var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 > [!NOTE]  
 > __+b__ at the end of MGF code helps create the board graphic.
  
+## Exmamples
+1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/thankYouMove.html).
