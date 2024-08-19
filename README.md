@@ -4,7 +4,7 @@
 ## Documentation
 1. Copy an SGF file (moves only)
 2. Convert the SGF moves to the MGF string with the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html)
-3. Copy the MGF string and paste it in the index file, as the sgf variable's value. 
+3. Copy the MGF string and paste it in the index file, as the sgf variable's value. For example,
 ```
 var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 +b11hg+w12hh+b13eg+w14fh+b15ge+w16hf+b17he+w18ig+b19fc+w20gd
@@ -17,3 +17,19 @@ var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 +b;
 
 ```
+## MGF Codes for annotation:
+1. A black stone with number 3 at ee: b3ee
+2. A white stone with number 4 at ef: w4ee
+3. A black stone at cf: bcf
+4. A white stone at dj: wdj
+5. A triangle mark at dh: Tdh
+6. A square mark at fi: Sfi
+7. A circle mark at ae: Cae
+8. A triangle mark on the black stone at ff: Tbff
+9. A triangle mark on the white stone at fg: Twfg
+10. A square mark on the black stone at ae: Sbae
+11. A square mark on the white stone at af: Swaf
+12. A circle mark on the black stone at ac: Cbac
+13. A circle mark on the white stone at ec: Cwec
+14. Comments are text.
+ 
