@@ -36,6 +36,6 @@ var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 13. A circle mark on the white stone at ec: Cwec
 14. Mark A, B, C, D) at fe, ff, aa, bc, respectively: Afe+Bff+Caa+Dbc
 
-[!Note]All
-
+> [!NOTE]  
+> __+b__ at the end of MGF code helps create the board graphic.
  
