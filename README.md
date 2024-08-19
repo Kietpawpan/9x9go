@@ -2,7 +2,7 @@
 HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
 
 ## How to Use
-1. Copy moves from an SGF file. For example,
+1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
 ```
 B[ee];W[bc];B[ef];W[bc]
 ```
@@ -34,5 +34,5 @@ var sgf = b1de+w2fe+b3ee+w4fd+b5ff+w6gf+b7gg+w8fg+b9ef+w10gh
 11. A square mark on the white stone at af: Swaf
 12. A circle mark on the black stone at ac: Cbac
 13. A circle mark on the white stone at ec: Cwec
-14. Comments are text in &lt;p&gt; tag.
+14. Mark A, B, C, D) at fe, ff, aa, bc, respectively: Afe+Bff+Caa+Dbc 
  
