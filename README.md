@@ -33,3 +33,7 @@ var sgf = b;
  
 ## Exmamples
 1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/thankYouMove.html).
+
+## Credits
+1. Wood background image from https://www.stockvault.net/photo/124529/wood-background 
+ 
