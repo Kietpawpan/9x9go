@@ -15,7 +15,7 @@ var sgf = b;
 ```
 5. Learn to know the MGF code. For example,
 ```
-B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 ```
 6. Paste the MGF code into the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) to plot the annotation diagram.
    
