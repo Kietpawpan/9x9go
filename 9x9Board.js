@@ -8510,3 +8510,43 @@ let Mgi = "<span style='position:absolute;margin:418px 0px 0px 313px;'><div clas
 let Mhi = "<span style='position:absolute;margin:418px 0px 0px 368px;'><div class='label'>&#x25B3;</div></span>";
 let Mii = "<span style='position:absolute;margin:418px 0px 0px 423px;'><div class='label'>&#x25B3;</div></span>";
 
+function mgf(){
+let rec = document.getElementById('record').value;
+let mgf0 = rec.replace(/;/g, "&#43;");
+let mgf1 = mgf0.replace(/B/g, "b");
+let mgf2 = mgf1.replace(/W/g, "w");
+let mgf3 = mgf2.replace(/]/g, "");
+let mgf4 = mgf3.replaceAll("[", "");
+let mgf5 = mgf4+"+b;";
+let mgf6 = mgf5.split("&#43;");
+let mgf =[];
+for(let i=0;i<mgf6.length;i++){
+const originalString = mgf6[i];
+const charToInsert = i+1;
+const indexToInsertAt = 1;
+let chars = [...originalString];
+chars.splice(indexToInsertAt, 0, charToInsert); 
+const newString = chars.join('');
+mgf.push(newString);
+}
+let mgf7 = mgf.toString();
+let mgf8 = mgf7.replaceAll(",", "+");
+document.getElementById("mgf").value = mgf8;
+}
+
+function copy1(){
+  const element = document.querySelector("#mgf");
+  element.select();
+  element.setSelectionRange(0, 99999);
+  document.execCommand('copy');
+  element.setSelectionRange(0, 0);
+  alert('Copied!');
+  }
+
+function setH() {
+$(document).on('input', 'textarea', function () {
+        $(this).outerHeight(38).outerHeight(this.scrollHeight); // 38 or '1em' -min-height
+    }); 
+}
+
+
