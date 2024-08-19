@@ -1,7 +1,14 @@
 textarea{
 font-size:20px;
+overflow:hidden;
+border:none;
+padding:10px 10px 10px 10px;
 }
 
+textarea:focus, input:focus{
+    outline: 0;
+
+}
 .grid-container {
   margin: 50px 0px 0px 50px;
   background-color: #111; /* color of the line between cells */
