@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+ <link rel="stylesheet" href="9x9Board.css">
+</head>
+<body>
+<div class="grid-container" id='board'>
+</div>
+
+<p><b>The Art of 9 &times 9 Go</b><br>
+SGF Viewer<br><br>
+
+
+<textarea id='record' style="width:400px;height:100px;" oninput="mgf()" placeholder="SGF input">
+</textarea>
+<br>
+<br>
+<textarea id="mgf" style="width:400px;height:100px;" placeholder="MGF output" hidden>
+</textarea>
+<br>
+<!--button onclick="copy1()" class="button btn">COPY</button-->
+
+</p>
+
+<script src="SGFviewer.js">
+</script>
+
+</span>
+
+</body>
+</html>
