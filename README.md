@@ -1,5 +1,5 @@
 # 9x9go
-[Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
+HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
 
 ## Documentation
 1. Copy an SGF file (moves only)
