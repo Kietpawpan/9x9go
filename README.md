@@ -13,7 +13,7 @@ var sgf = b;
 
 ```
 5. The [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html) is used for displaying the game from an SGF moves.
-6. The [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) is used for ploting the game annotation.
+6. The [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) is used for ploting the game annotation, based on the MGF codes.
    
 ## MGF Codes for annotation:
 1. A black stone with number 3 at ee: b3ee
