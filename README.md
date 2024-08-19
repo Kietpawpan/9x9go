@@ -12,6 +12,8 @@ B[ee];W[bc];B[ef];W[bc]
 var sgf = b;
 
 ```
+5. We use [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFViewer.html) to display the game.
+6. 
 ## MGF Codes for annotation:
 1. A black stone with number 3 at ee: b3ee
 2. A white stone with number 4 at ef: w4ee
