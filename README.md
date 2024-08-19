@@ -2,5 +2,7 @@
 [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
 
 ## Documentation
-- Black stones are numbered 1 to 81 followed by position: b19c
-- White stones are numbered 2 to 80 followed by position: w29d
+1. Copy an SGF file (moves only)
+2. Convert the SGF moves to the MGF string with the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html)
+3. Copy the MGF string and paste it in the index file. 
+
