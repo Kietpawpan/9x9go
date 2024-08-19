@@ -6,14 +6,14 @@ HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annot
 ```
 B[ee];W[bc];B[ef];W[bc]
 ```
-3. Paste them to the input textarea of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html). The SGF moves will be automatically converted to the MGF (Monteo Game Format) string.
+2. The [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html) is used for displaying the game from an SGF moves.
+3. Paste the SGF moves to the input textarea of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html). The SGF moves will be automatically converted to the MGF (Monteo Game Format) string.
 4. Click the copy button and paste it in the index file, within the &lt;script&gt; tag, for the value of the sgf variable. For example,
 ```
 var sgf = b;
 
 ```
-5. The [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html) is used for displaying the game from an SGF moves.
-6. The [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) is used for ploting the game annotation, based on the MGF codes.
+5. The [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) is used for ploting the game annotation, based on the MGF codes.
    
 ## MGF Codes for annotation:
 1. A black stone with number 3 at ee: b3ee
