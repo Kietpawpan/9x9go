@@ -37,5 +37,5 @@ var sgf = b;
 > > > [https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
   
 ## Exmamples
-1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/thankYouMove.html).
+1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
 
