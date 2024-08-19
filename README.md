@@ -13,7 +13,11 @@ B[ee];W[bc];B[ef];W[bc]
 var sgf = b;
 
 ```
-5. The [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) is used for ploting the game annotation, based on the MGF codes.
+5. Learn to know the MGF code. For example,
+```
+B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+```
+6. Paste the MGF code into the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) to plot the annotation diagram.
    
 ## MGF Codes for annotation:
 1. A black stone with number 3 at ee: b3ee
