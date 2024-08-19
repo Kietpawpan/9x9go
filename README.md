@@ -32,9 +32,7 @@ var sgf = b;
 > __+b__ at the end of MGF code helps create the board graphic.
 
 > [!IMPORTANT]  
-> Wood background image
-> by 2happy
-> https://www.stockvault.net/photo/124529/wood-background 
+> Wood background image by [2happy](https://www.stockvault.net/user/profile/87395): https://www.stockvault.net/photo/124529/wood-background 
   
 ## Exmamples
 1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/thankYouMove.html).
