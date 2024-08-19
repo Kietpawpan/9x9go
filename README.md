@@ -1,7 +1,7 @@
 # 9x9go
 HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
 
-## Documentation
+## How to Use
 1. Copy an SGF file (moves only)
 2. Convert the SGF moves to the MGF string with the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html)
 3. Copy the MGF string and paste it in the index file, within the &lt;script&gt; tag, for the value of the sgf variable. For example,
