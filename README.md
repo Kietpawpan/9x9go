@@ -20,16 +20,14 @@ var sgf = b;
 2. A white stone with number 4 at ef: w4ee
 3. A black stone at cf: bcf
 4. A white stone at dj: wdj
-5. A triangle mark at dh: Tdh
-6. A square mark at fi: Sfi
-7. A circle mark at ae: Cae
-8. A triangle mark on the black stone at ff: Tbff
-9. A triangle mark on the white stone at fg: Twfg
-10. A square mark on the black stone at ae: Sbae
-11. A square mark on the white stone at af: Swaf
-12. A circle mark on the black stone at ac: Cbac
-13. A circle mark on the white stone at ec: Cwec
-14. Mark A, B, C, D) at fe, ff, aa, bc, respectively: Afe+Bff+Caa+Dbc
+5. A triangle mark at dh: Mdh
+6. A triangle mark on the black stone at ff: Tbff
+7. A triangle mark on the white stone at fg: Twfg
+8. A square mark on the black stone at ae: Sbae
+9. A square mark on the white stone at af: Swaf
+10. A circle mark on the black stone at ac: Cbac
+11. A circle mark on the white stone at ec: Cwec
+12. Mark A, B, C, D) at fe, ff, aa, bc, respectively: Afe+Kff+Caa+Dbc
 
 > [!NOTE]  
 > __+b__ at the end of MGF code helps create the board graphic.
