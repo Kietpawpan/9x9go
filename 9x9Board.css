@@ -3,6 +3,41 @@ Copyright (c) 2024 Monte Kietpawpan
 All rights reserved.
 */
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-image:url(wood2.jpg);
+  color:white;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+  background-image:url(wood1.jpg);
+
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.control{
+margin-left:10px;
+margin-top:50px;
+}
+
+
 .button {
   background-color: #c97d07;
   /*border: none;*/
@@ -58,14 +93,29 @@ body{
     url(wood2.jpg);
 }
 
+.commentBox{
+  color:white;
+  position:absolute;
+  height:300px;
+  font-size:20px;
+  padding:10px 10px 10px 10px;
+  background-color:white;
+  width:250px;
+  border:none;
+  margin-left:-190px;
+  margin-top:50px;
+  color:black;
+  font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 
+  /*font-family:'VT323';*/
+}
 textarea{
   font-size:20px;
   overflow:hidden;
   border-color:#c97d07;
   border-width:2px;
   padding:10px 10px 10px 10px;
-  background-image:url(wood1.jpg);
+  /*background-image:url(wood1.jpg);*/
 }
 
 textarea:focus, input:focus{
@@ -74,7 +124,7 @@ textarea:focus, input:focus{
 }
 
 .grid-container {
-  margin: 50px 0px 0px 10px;
+  margin: 50px 0px 0px 50px;
   background-color: #111; /* color of the line between cells */
   display: grid;
   grid-gap: 1px; /* size of the line between cells */
@@ -87,7 +137,7 @@ textarea:focus, input:focus{
 }
 
 p {
-  margin: -470px 0px 0px 480px;
+  margin: -470px 0px 0px 520px;
   font-size:25px;
   font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;
   width:250px;
