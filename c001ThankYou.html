@@ -2,45 +2,57 @@
 
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>The Art of 9 &times 9 Go</title>
- <link rel="stylesheet" href="9x9Board.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+	<meta charset="utf-8">
+	<title>The Art of 9 &times 9 Go</title>
+	<link rel="stylesheet" href="9x9Board.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body onload="mgf()">
-<div class="grid-container" id='board'>
-</div>
 
-<p><b>
+<body onload="mgf()">
+
+<div class="grid-container" id='board'></div>
+<p style="margin-top:-460px;"><b>
+
+<!------------------TITLE------------------>
 
 Don't play a Thank You Move,
 
-</b><br>
-<font style="font-size:18px;">or you will help the enemy's troops and hurt yours.</font><br><br>
+</b><br><font style="font-size:18px;">
 
-<textarea id="mgf" style="width:250px;" placeholder="comment"></textarea>
-<textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
-</textarea>
 
-<br>
+
+<!------------------SUBTITLE------------------>
+
+or you will help the enemy's troops and hurt yours.
+
+
+</font><br><br>
+<textarea id="mgf" style="width:250px;border:none;background:transparent;margin-left:-10px;margin-top:-20px;"></textarea>
+<textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>
+
+
+
+<!------------------MGF CODE------------------>
+
+B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+
+
+</textarea><br>
 <!--button onclick="copy1()" class="button btn">COPY</button -->
-
 </p>
 
+
+
+<!------------------COMMENT------------------>
 <script>
-
-const comment ="White 6 forces Black to enjoy a powerful cut at A, blocking the route between the upper white groups and White 4, while making Black stronger and ready to attack White 4.";
-
-document.getElementById('mgf').value=comment;
-document.getElementById('mgf').style.height= document.getElementById('mgf').scrollHeight +"px";
+	const comment ="White 6 forces Black to enjoy a powerful cut at A, blocking the route between the upper white groups and White 4, while making Black stronger and ready to attack White 4."; 
+	document.getElementById('mgf').value=comment;document.getElementById('mgf').style.height= document.getElementById('mgf').scrollHeight +"px";
 </script>
 
-<script src="artof9x9.js">
-</script>
+<script src="artof9x9.js"></script>
 
 
-</span>
+
 
 </body>
 </html>
