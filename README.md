@@ -16,6 +16,9 @@ b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 5. Paste the MGF code into the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) to plot the annotation diagram.
    
 ## MGF Codes for annotation:
+Monteo Game Format (MGF) is a code of Go moves in JavaScript. Each move is recorded with the following format:
+> [mark][stone color][move number][SGF coordinate]
+
 1. A black stone with number 3 at ee: b3ee
 2. A white stone with number 4 at ef: w4ee
 3. A black stone at cf: bcf
