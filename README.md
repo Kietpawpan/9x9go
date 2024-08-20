@@ -116,7 +116,7 @@ or you will help the enemy's troops and hurt yours.
 
 <!------------------MGF CODE------------------>
 
-B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 
 
 </textarea><br>
