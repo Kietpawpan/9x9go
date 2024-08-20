@@ -55,7 +55,7 @@ Hence,
 12. Mark A, B, C, D) at fe, ff, aa, bc, respectively is Afe+Kff+Caa+Dbc, respectively.
 
 > [!NOTE]  
-> Multiple Moves = Move + Move + Move +...+ Move + b;
+> Multiple Moves = Move 1 + Move 2 + Move 3 +...+ Move N + b;
 For example,
 ```
 mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
