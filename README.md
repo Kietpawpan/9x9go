@@ -67,7 +67,7 @@ mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
 
   
 ## Credits
-![img](https://kietpawpan.github.io/9x9go/wood1.jpg=50x50)
+![img](https://kietpawpan.github.io/9x9go/wood1.jpg | width=50)
 The background image is the wood image by [2happy](https://www.stockvault.net/user/profile/87395)[https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
   
 ## Exmamples
