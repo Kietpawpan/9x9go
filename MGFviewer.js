@@ -2,11 +2,10 @@
 // v1.0.0 | August 18, 2024 
 // Copyright (c) 2024 Monte Kietpawpan
 // All rights reserved.
-
-
+/*
 document.body.style.backgroundImage = "url('wood1.jpg')";
 document.body.style.backgroundRepeat = "repeat-x";
-
+*/
 document.getElementById('board').style.backgroundImage = "url('wood1.jpg')";
 
 
