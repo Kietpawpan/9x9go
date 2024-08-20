@@ -78,7 +78,7 @@ mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
 Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
   
 ## Exmamples
-1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
+1. [Do not play a Thank You move](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
 ```
 <!DOCTYPE html>
 
