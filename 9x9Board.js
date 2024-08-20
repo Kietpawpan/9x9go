@@ -1,5 +1,6 @@
 // 9x9Board.js
-// v1.0.0 | August 18, 2024 
+// v1.0.1 | August 21, 2024: MGF bug fixed
+// v1.0.0 | August 18, 2024
 // Copyright (c) 2024 Monte Kietpawpan
 // All rights reserved.
 
@@ -8517,7 +8518,7 @@ let mgf1 = mgf0.replace(/B/g, "b");
 let mgf2 = mgf1.replace(/W/g, "w");
 let mgf3 = mgf2.replace(/]/g, "");
 let mgf4 = mgf3.replaceAll("[", "");
-let mgf5 = mgf4+"+b;";
+let mgf5 = mgf4;
 let mgf6 = mgf5.split("&#43;");
 let mgf =[];
 for(let i=0;i<mgf6.length;i++){
