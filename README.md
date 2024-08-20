@@ -25,7 +25,7 @@ Monteo Game Format (MGF) is a code of Go moves in JavaScript. Each move is recor
 > [stone color] = [black, white] = [b,w]
 > 
 > [move number] = [1, 2, ..., 81]
-
+>
 > SGF coordinate = [aa, ab, ..., ai, ba, ..., bi, ia, ..., ii]:
 
 ```
@@ -40,18 +40,19 @@ g  . . . . . . . . .
 h  . . . . . . . . .
 i  . . . . . . . . ii 
 ```
-1. A black stone with number 3 at ee: b3ee
-2. A white stone with number 4 at ef: w4ee
-3. A black stone at cf: bcf
-4. A white stone at dj: wdj
-5. A triangle mark at dh: Mdh
-6. A triangle mark on the black stone at ff: Tbff
-7. A triangle mark on the white stone at fg: Twfg
-8. A square mark on the black stone at ae: Sbae
-9. A square mark on the white stone at af: Swaf
-10. A circle mark on the black stone at ac: Cbac
-11. A circle mark on the white stone at ec: Cwec
-12. Mark A, B, C, D) at fe, ff, aa, bc, respectively: Afe+Kff+Caa+Dbc
+Hence,
+1. A black stone with number 3 at ee is b3ee
+2. A white stone with number 4 at ef is w4ee
+3. A black stone at cf is bcf
+4. A white stone at dj is wdj
+5. A triangle mark at dh is Mdh
+6. A triangle mark on the black stone at ff is Tbff
+7. A triangle mark on the white stone at fg is Twfg
+8. A square mark on the black stone at ae is Sbae
+9. A square mark on the white stone at af is Swaf
+10. A circle mark on the black stone at ac is Cbac
+11. A circle mark on the white stone at ec is Cwec
+12. Mark A, B, C, D) at fe, ff, aa, bc, respectively is Afe+Kff+Caa+Dbc, respectively.
 
 > [!NOTE]  
 > __+b__ at the end of MGF code helps create the board graphic.
