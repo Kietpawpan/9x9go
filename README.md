@@ -79,4 +79,31 @@ Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](htt
   
 ## Exmamples
 1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
+```
+<!DOCTYPE html>
+
+<html><head><meta charset="utf-8"><title>The Art of 9 &times 9 Go</title><link rel="stylesheet" href="9x9Board.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></head><body onload="mgf()"><div class="grid-container" id='board'></div>
+<p><b>
+
+<!--TITLE-->
+
+Don't play a Thank You Move,
+
+</b><br><font style="font-size:18px;">
+
+<!--SUBTITLE-->
+
+or you will help the enemy's troops and hurt yours.
+
+
+</font><br><br><textarea id="mgf" style="width:250px;" placeholder="comment"></textarea><textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>
+
+<!--MGF-->
+
+B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+
+
+</textarea><br><!--button onclick="copy1()" class="button btn">COPY</button --></p><script>const comment ="White 6 forces Black to enjoy a powerful cut at A, blocking the route between the upper white groups and White 4, while making Black stronger and ready to attack White 4."; document.getElementById('mgf').value=comment;document.getElementById('mgf').style.height= document.getElementById('mgf').scrollHeight +"px";
+</script><script src="artof9x9.js"></script></span></body></html>
+```
 
