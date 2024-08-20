@@ -3,14 +3,52 @@ Copyright (c) 2024 Monte Kietpawpan
 All rights reserved.
 */
 
+.button {
+  background-color: #c97d07;
+  /*border: none;*/
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:5%;
+  background-image:url(wood1.jpg);
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  border-color:#c97d07;
+}
+
+.btn:hover {
+  background-image:url(wood2.jpg); 
+  color:white;
+}
+
+.copyright{
+  font-size:16px;
+  margin-top:-25px;
+  margin-bottom:50px;
+}
+
+a{
+text-decoration:none;
+}
+
+
 body{
   height: 100vh;
   
   background-position:
     top 0px left 10px,
     top 0px right 10px,
-    bottom 30px right 350px,
-    bottom 30px left 350px;
+    bottom 0px right 350px,
+    bottom 0px left 350px;
   
   background-size:contain; 
   background-repeat: no-repeat, repeat-x;
@@ -24,12 +62,15 @@ body{
 textarea{
   font-size:20px;
   overflow:hidden;
-  border:none;
+  border-color:#c97d07;
+  border-width:2px;
   padding:10px 10px 10px 10px;
+  background-image:url(wood1.jpg);
 }
 
 textarea:focus, input:focus{
   outline: 0;
+  background-image:url(#);
 }
 
 .grid-container {
