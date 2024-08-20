@@ -1,5 +1,5 @@
 # 9 x 9 Go Board
-_A web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation_
+_A commercial web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation_
 
 ## Algorithm
 1. A 9 x 9 Go board is the black grid containner with 81 grid items.
