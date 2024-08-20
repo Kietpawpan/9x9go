@@ -16,7 +16,9 @@ b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 5. Paste the MGF code into the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) to plot the annotation diagram.
    
 ## Monteo Game Format:
-Monteo Game Format (MGF) is a JavaScript code to create 9 &times 9 Go diagram for game annotation. Each move is recorded with the following format:
+Monteo Game Format (MGF) is a JavaScript code to create 9 x 9 Go diagram for game annotation, developed for commercial use in _The Art of 9 x 9 Go: Superhuman Edition_, by Monteo da Westi. 
+
+Each move is recorded with the following format:
 > [!NOTE]  
 > Move = [mark][stone color][move number][SGF coordinate]
 > 
