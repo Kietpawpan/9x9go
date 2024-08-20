@@ -55,6 +55,12 @@ Hence,
 12. Mark A, B, C, D) at fe, ff, aa, bc, respectively is Afe+Kff+Caa+Dbc, respectively.
 
 > [!NOTE]  
+> Multiple Moves = Move + Move + Move +...+ Move + b;
+For example,
+```
+mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
+```
+> [!NOTE]  
 > __+b__ at the end of MGF code helps create the board graphic.
 
 > [!IMPORTANT]  
