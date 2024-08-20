@@ -67,8 +67,9 @@ mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
 
   
 ## Credits
-<img src="https://kietpawpan.github.io/9x9go/wood1.jpg" width="50">
-The background image is the wood image by [2happy](https://www.stockvault.net/user/profile/87395)[https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
+<img src="https://kietpawpan.github.io/9x9go/wood1.jpg" width="150">
+Wood image by [2happy](https://www.stockvault.net/user/profile/87395)
+[https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
   
 ## Exmamples
 1. [Do not play a Thank You Move](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
