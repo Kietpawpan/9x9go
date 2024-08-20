@@ -1,16 +1,39 @@
+/* 
+Copyright (c) 2024 Monte Kietpawpan 
+All rights reserved.
+*/
+
+body{
+  height: 100vh;
+  
+  background-position:
+    top 0px left 10px,
+    top 0px right 10px,
+    bottom 30px right 350px,
+    bottom 30px left 350px;
+  
+  background-size:contain; 
+  background-repeat: no-repeat, repeat-x;
+  
+  background-image:
+    url(wood1.jpg),
+    url(wood2.jpg);
+}
+
+
 textarea{
-font-size:20px;
-overflow:hidden;
-border:none;
-padding:10px 10px 10px 10px;
+  font-size:20px;
+  overflow:hidden;
+  border:none;
+  padding:10px 10px 10px 10px;
 }
 
 textarea:focus, input:focus{
-    outline: 0;
-
+  outline: 0;
 }
+
 .grid-container {
-  margin: 50px 0px 0px 50px;
+  margin: 50px 0px 0px 10px;
   background-color: #111; /* color of the line between cells */
   display: grid;
   grid-gap: 1px; /* size of the line between cells */
@@ -19,12 +42,11 @@ textarea:focus, input:focus{
   padding:3px; /* size of the line around the board */
   width:450px; /*board width */
   height:450px; /*board height */
-position:relative;
-
+  position:relative;
 }
 
 p {
-  margin: -450px 0px 0px 550px;
+  margin: -470px 0px 0px 480px;
   font-size:25px;
   font-family:'Helvetica Neue', Helvetica, Arial, Sans-Serif;
   width:250px;
@@ -42,15 +64,12 @@ p {
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: #fff;
     border: 1px solid #666;
     color: #666;
     text-align: center;
-
     font: 30px Arial, sans-serif;
-font-weight:bold;
-
+    font-weight:bold;
 }
 
 
@@ -59,12 +78,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: black;
     border: 1px solid black;
     color: white;
     text-align: center;
-
     font: 30px Arial, sans-serif;
     font-weight:bold;
     /*background-image: radial-gradient(grey, black);*/
@@ -80,22 +97,17 @@ font-weight:bold;
     text-align: center;
     font: 30px Arial, sans-serif;
     font-weight:bold;
-
 }
-
-
 
 .p {
     border-radius: 50%;
     width: 7px;
     height: 7px;
     padding: 0px;
-
     background: black;
     border: 1px solid black;
     color: white;
     text-align: center;
-
     font: 14px Arial, sans-serif;
     font-weight:bold;
 }
@@ -105,11 +117,9 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     border: 0px;
     color: black;
     text-align: center;
-
     font: 30px Arial, sans-serif;
     font-weight:bold;
 }
@@ -120,12 +130,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: black;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 25px Arial, sans-serif;
     font-weight:bold;
     /*background-image: radial-gradient(grey, black);*/
@@ -136,12 +144,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: black;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 25px Arial, sans-serif;
     font-weight:bold;
 }
@@ -151,12 +157,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: black;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 30px Arial, sans-serif;
     font-weight:bold;
 }
@@ -166,12 +170,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: white;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 25px Arial, sans-serif;
     font-weight:bold;
     /*background-image: radial-gradient(grey, black);*/
@@ -182,12 +184,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: white;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 25px Arial, sans-serif;
     font-weight:bold;
 }
@@ -197,12 +197,10 @@ font-weight:bold;
     width: 35px;
     height: 35px;
     padding: 9px;
-
     background: white;
     border: 1px solid black;
     color: red;
     text-align: center;
-
     font: 30px Arial, sans-serif;
     font-weight:bold;
 }
