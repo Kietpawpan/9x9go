@@ -22,17 +22,20 @@ Monteo Game Format (MGF) is a code of Go moves in JavaScript. Each move is recor
 > >[mark] = [cross, triangle, squared, circle] = [X,T,S,C]
 > >[stone color] = [black, white] = [b,w]
 > >[move number] = [1, 2, ..., 81]
-> >SGF coordinate = [aa, ab, ..., ai, ba, ..., bi, ia, ..., ii],
-> >  a b c d e f g h i
-> >a aa
-> >b
-> >c
-> >d
-> >f
-> >g
-> >h
-> >i . . . . . . . ii 
+> >SGF coordinate = [aa, ab, ..., ai, ba, ..., bi, ia, ..., ii]:
 
+```
+.  a b c d e f g h i
+a aa . . . . . . . .
+b  . . . . . . . . .
+c  . . . . . . . . .
+d  . . . . . . . . .
+e  . . . . ee . . . .
+f  . . . . . . . . .
+g  . . . . . . . . .
+h  . . . . . . . . .
+i  . . . . . . . . ii 
+```
 1. A black stone with number 3 at ee: b3ee
 2. A white stone with number 4 at ef: w4ee
 3. A black stone at cf: bcf
