@@ -17,7 +17,21 @@ b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
    
 ## MGF Codes for annotation:
 Monteo Game Format (MGF) is a code of Go moves in JavaScript. Each move is recorded with the following format:
+> [!NOTE]  
 > [mark][stone color][move number][SGF coordinate]
+> >[mark] = [cross, triangle, squared, circle] = [X,T,S,C]
+> >[stone color] = [black, white] = [b,w]
+> >[move number] = [1, 2, ..., 81]
+> >SGF coordinate = [aa, ab, ..., ai, ba, ..., bi, ia, ..., ii],
+> >  a b c d e f g h i
+> >a aa
+> >b
+> >c
+> >d
+> >f
+> >g
+> >h
+> >i . . . . . . . ii 
 
 1. A black stone with number 3 at ee: b3ee
 2. A white stone with number 4 at ef: w4ee
