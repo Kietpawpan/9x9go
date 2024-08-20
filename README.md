@@ -85,38 +85,51 @@ Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](htt
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Art of 9 &times 9 Go</title>
 	<link rel="stylesheet" href="9x9Board.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body onload="mgf()">
+</head>
+<body>
 
-<div class="grid-container" id='board'></div>
-<p><b>
+  
+
+<div class="grid-container" id='board'></div><br><span style="float:left;margin-left:50px;font-size:15px;color:#686360;">Copyright &copy; 2024 by Monte Kietpawpan. All rights reserved.</span>
+
+
+
+<p style="margin-top:-460px;"><b>
 
 <!------------------TITLE------------------>
 
-Don't play a Thank You Move,
 
-</b><br><font style="font-size:18px;">
-
+</b><font style="font-size:20px;"><b>
 
 
-<!------------------SUBTITLE------------------>
-
-or you will help the enemy's troops and hurt yours.
+<!------------------SUB------------5a5858------>
 
 
-</font><br><br>
-<textarea id="mgf" style="width:250px;" placeholder="comment"></textarea>
+
+</b></font>
+<textarea id="mgf" style="resize:none;margin-top:-12px;"></textarea>
+
+
+<span style="position:absolute;margin-top:392px;margin-left:-240px;font-size:30px;color:white;">
+<a href="#" class="previous">&laquo;</a>
+<a href="#" class="next">&raquo;</a>
+<br></span>
+
+
 <textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>
 
 
 
 <!------------------MGF CODE------------------>
 
-b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 
 
 </textarea><br>
@@ -127,8 +140,10 @@ b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 
 <!------------------COMMENT------------------>
 <script>
-	const comment ="White 6 forces Black to enjoy a powerful cut at A, blocking the route between the upper white groups and White 4, while making Black stronger and ready to attack White 4."; 
-	document.getElementById('mgf').value=comment;document.getElementById('mgf').style.height= document.getElementById('mgf').scrollHeight +"px";
+        const load = document.getElementById('mgf');
+	const comment ="DO NOT PLAY THANK-YOU MOVES\n\nWhite 6 forces Black to make a good cut at A, blocking the road between the upper white group and the lower white stone, while making Black ready to attack White 4."; 
+	load.value=comment;
+	load.style.height= load.scrollHeight +"px";
 </script>
 
 <script src="artof9x9.js"></script>
