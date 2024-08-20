@@ -1,5 +1,6 @@
 # 9x9go
 HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation
+<img src="https://kietpawpan.github.io/9x9go/board.jpg" width="200"></img>
 
 ## How to Use
 1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
