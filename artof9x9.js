@@ -1,8 +1,21 @@
-// 9x9Board.js
-// v1.0.0 | August 18, 2024 
+// artof9x9.js
+// v1.0.1 | August 21, 2024 
 // Copyright (c) 2024 Monte Kietpawpan
 // All rights reserved.
 
+/* CURSUR : https://codepen.io/bharat-gupta/pen/gZMOQO */
+var cursor = true;
+var speed = 300;
+
+setInterval(() => {
+   if(cursor) {
+     document.getElementById('cursor').style.opacity = 0;
+     cursor = false;
+   }else {
+     document.getElementById('cursor').style.opacity = 1;
+     cursor = true;
+   }
+}, speed);
 
 document.body.style.backgroundImage = "url('wood1.jpg')";
 document.body.style.backgroundRepeat = "repeat-x";
