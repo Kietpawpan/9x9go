@@ -13,7 +13,7 @@ _A web application for creating HTML/CSS [Go board](https://kietpawpan.github.io
 B[ee];W[bc];B[ef];W[bc]
 ```
 2. The [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html) is used for displaying the game from an SGF moves.
-3. Paste the SGF moves to the input textarea of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html). The SGF moves will be automatically converted to the MGF (Monteo Game Format) string.
+3. The [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html) is used for converting SGF moves to the MGF codes.
 
 4. Learn to know the MGF code. For example,
 ```
