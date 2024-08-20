@@ -54,7 +54,7 @@ Hence,
 9. A square mark on the white stone at af is Swaf
 10. A circle mark on the black stone at ac is Cbac
 11. A circle mark on the white stone at ec is Cwec
-12. Mark A, B, C, D) at fe, ff, aa, bc, respectively is Afe+Kff+Caa+Dbc, respectively.
+12. Mark A, B, C, D at fe, ff, aa, bc, respectively is Afe+Kff+Caa+Dbc, respectively.
 
 > [!NOTE]  
 > Multiple Moves = Move 1 + Move 2 + Move 3 +...+ Move N + b;
