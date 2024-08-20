@@ -1,5 +1,5 @@
 # 9 x 9 Go Board
-_A web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) for 9 x 9 Go game annotation_
+_A web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) to support online 9 x 9 Go game annotation_
 
 ## How to Use
 1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
