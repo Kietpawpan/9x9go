@@ -1,12 +1,6 @@
 # 9 x 9 Go Board
 _A commercial web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation_
 
-## Algorithm
-1. A 9 x 9 Go board is the black grid containner with 81 grid items.
-2. Each grid item has wood background. 
-3. Go stone is a span, with black (or white) blackground.
-4. An MGT move is an evaluated modified SGF string. 
-
 ## How to Use
 1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
 ```
