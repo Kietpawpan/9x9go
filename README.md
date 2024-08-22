@@ -1,4 +1,4 @@
-# 9 x 9 Go Board
+# artof9x9.js
 _A commercial web application for creating HTML/CSS [Go board](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation_
 
 ## How to Use
@@ -149,4 +149,49 @@ B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 </html>
 
 ```
+## A Guide to Mastering 9x9 Go: Tactics and Strategy
+
+### Introduction
+Go, an ancient Chinese board game, is renowned for its simplicity and complexity. This guide will delve into the intricacies of 9x9 Go, providing you with the tools to develop your skills and become a proficient player.
+
+### Understanding the Basics
+- The Board: A square grid of 9x9 intersections.
+- Pieces: Black and white stones.
+- Objective: To control more territory on the board than your opponent.
+
+### Key Concepts
+- Liberties: The empty spaces surrounding a group of stones.
+- Life and Death: A group of stones is considered alive if it can maintain liberties, and dead if it cannot.
+- Territory: The area of the board controlled by a player.
+- Influence: The potential for a group of stones to expand its territory.
+
+### Basic Tactics
+- Capturing: Removing an opponent's group of stones with no liberties.
+- Ko: A repeating sequence of captures and recaptures.
+- Suicide: Playing a stone in a way that results in your own group's capture.
+- Connecting: Joining two groups of stones together.
+- Surrounding: Isolating an opponent's group from the rest of the board.
+
+### Strategic Principles
+- Control of the Center: The center of the board is a strategic advantage, as it provides access to all areas.
+- Thickness: Having a thick group of stones is more secure than a thin one.
+- Eyes: A group of stones with two or more empty spaces surrounded by its own stones is considered alive.
+- Shape: Good shape allows for flexibility and expansion.
+- Timing: Knowing when to attack, defend, or play passively is crucial.
+
+### Advanced Tactics
+- Tesuji: A subtle and effective move that often involves sacrificing a stone to gain a larger advantage.
+- Ladder: A sequence of moves that can lead to a capture or the creation of an eye.
+- Corner Play: Understanding how to control the corners of the board is essential for good strategy.
+
+### Practice and Improvement
+- Playing Regularly: The more you play, the better you will become.
+- Analyzing Games: Review your games to identify mistakes and learn from your opponents.
+- Studying Professional Games: Learn from the best players by analyzing their games.
+- Online Resources: There are many online resources available, including Go servers, tutorials, and books.
+
+By understanding these concepts and practicing regularly, you can develop your Go skills and become a formidable opponent. Remember, Go is a game of patience, strategy, and creativity. Enjoy the journey!
+
+> [!Note]
+> This is a basic outline of 9x9 Go. For more in-depth knowledge, consider exploring specific tactics and strategies, as well as studying professional games and analyzing your own.
 
