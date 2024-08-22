@@ -149,7 +149,7 @@ B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
 </html>
 
 ```
-## A Guide to Mastering 9x9 Go: Tactics and Strategy
+# A Guide to Mastering 9x9 Go: Tactics and Strategy
 
 ### Introduction
 Go, an ancient Chinese board game, is renowned for its simplicity and complexity. This guide will delve into the intricacies of 9x9 Go, providing you with the tools to develop your skills and become a proficient player.
