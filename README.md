@@ -73,4 +73,4 @@ Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](htt
   
 ## Examples
 1. [Do not play Thank-you moves](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
-2. [One-pont jump is often the best](https://kietpawpan.github.io/9x9go/c002OPJ.html).
+2. [One-pont jump is usually the best](https://kietpawpan.github.io/9x9go/c002OPJ.html).
