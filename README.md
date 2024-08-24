@@ -7,13 +7,8 @@ _A web application for creating HTML/CSS [9 x 9 Go diagram](https://kietpawpan.g
 B[ee];W[ec];B[fg];W[cf];B[dd];W[dc]
 ```
 2. Paste the SGF moves into the input box of the [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html), to display the 9 x 9 Go diagram accordingly.
-3. Or, paste the SGF moves into the input box of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html), to convert the SGF moves to the MGF moves.
-
-4. Learn to know the MGF code. For example,
-```
-b1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
-```
-5. Paste the MGF code into the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html) to plot the annotation diagram.
+3. Or, paste the SGF moves into the input box of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html), to convert the SGF moves to the MGF moves. 
+4. Copy the MGF moves from step 3 and paste them into the input box of the [MGF Viewer](https://kietpawpan.github.io/9x9go/MGFviewer.html), to display the annotation diagram.
    
 ## Monteo Game Format:
 Monteo Game Format (MGF) is a JavaScript code to create a 9 x 9 Go diagram for game annotation in _The Art of 9 x 9 Go: Superhuman Edition_, by Monteo da Westi and A Master of Go, 9 Dan++.
