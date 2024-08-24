@@ -4,7 +4,7 @@ _A web application for creating HTML/CSS [9 x 9 Go diagram](https://kietpawpan.g
 ## How to Use
 1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
 ```
-B[ee];W[bc];B[ef];W[bc]
+B[ee];W[ec];B[fg];W[cf]
 ```
 2. The [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html) is used for displaying the game from an SGF moves.
 3. The [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html) is used for converting SGF moves to the MGF codes.
