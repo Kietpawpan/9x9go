@@ -1,5 +1,5 @@
 # artof9x9.js
-_A web application for creating HTML/CSS [9 x 9 Go diagram](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation in The Art of 9x9 Go ebook_
+A web application for creating HTML/CSS [9 x 9 Go diagram](https://kietpawpan.github.io/9x9go/) to support 9 x 9 Go game annotation from _[The Art of 9x9 Go: Superhuman Edition]([http](https://kietpawpan.github.io/9x9go/Goseigen02.pdf)_ ebook
 
 ## How to Use
 1. To display moves in this 9 &times; 9 Go diagram, let's copy the moves being considered   from an SGF file. For example,
