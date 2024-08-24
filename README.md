@@ -68,6 +68,6 @@ Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](htt
   
 ## Examples
 
-1. [The Art of 9 x 9 Go: Superhuman Edition](https://kietpawpan.github.io/9x9go/c001.html).
+1. [The Art of 9 x 9 Go: Superhuman Edition](https://kietpawpan.github.io/9x9go/c000.html).
 2. [Do not play Thank-you moves](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
 3. [One-pont jump is usually the best](https://kietpawpan.github.io/9x9go/c002OPJ.html).
