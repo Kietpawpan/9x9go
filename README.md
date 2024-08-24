@@ -17,7 +17,7 @@ Each move is recorded with the following format:
 > [!NOTE]  
 > Move = [mark][stone color][move number][SGF coordinate]
 > 
-> [mark] = [cross, triangle, squared, circle, [text]] = [X,T,S,C, {[A,B,C,D]<==[A,K,B,C]}]
+> [mark] = [cross, triangle, squared, circle, [text]] = [X,T,S,C, {[A,B,C,D]<==[A,K,C,D]}]
 > 
 > [stone color] = [black, white] = [b,w]
 > 
