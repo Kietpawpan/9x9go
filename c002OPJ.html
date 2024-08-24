@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Art of 9 &times 9 Go</title>
+	<link rel="stylesheet" href="9x9Board.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body onload="mgf()">
+</head>
+<body>
+
+  
+
+<div class="grid-container" id='board'></div><br><span style="float:left;margin-left:50px;font-size:20px;color:black;/*#686360*/"><b>Diagram 1</b> One Point Jump (White 6 at B)</span>
+
+
+
+<p style="margin-top:-460px;"><b>
+
+<!------------------TITLE------------------>
+
+
+</b><font style="font-size:20px;"><b>
+
+
+<!------------------SUB------------5a5858------>
+
+
+
+</b></font>
+<textarea id="mgf" style="resize:none;margin-top:-12px;"></textarea>
+
+
+<span style="position:absolute;margin-top:392px;margin-left:-240px;font-size:30px;color:white;">
+<a href="https://kietpawpan.github.io/9x9go/c001ThankYou.html" class="previous">&laquo;</a>
+<a href="#" class="next">&raquo;</a>
+<br></span>
+
+
+<textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>
+
+
+
+<!------------------MGF CODE------------------>
+
+b1ee+w2ec+b3fg+w4cf+b5dd+Kgc+Cdc+Ddg
+
+</textarea><br>
+<!--button onclick="copy1()" class="button btn">COPY</button -->
+</p>
+
+
+
+<!------------------COMMENT------------------>
+<script>
+        const load = document.getElementById('mgf'); 
+	const comment ="ONE POINT JUMP IS USUALLY THE BEST\n\nTo avoid forcing Black to approach White 4, White should play the next move at B, then Black will play at C to block the white groups. Then, White can play White 7 at D and has two strong white groups as the best outcome."; 
+	load.value=comment;
+	load.style.height= load.scrollHeight +"px";
+</script>
+
+<script src="artof9x9.js"></script>
+
+
+
+
+</body>
+</html>
