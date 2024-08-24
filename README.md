@@ -71,8 +71,9 @@ mgf = b1ee + w2ec + b3fg + w4cf + b5dd + w6dc + Acd + b;
 
 Image by 2happy<br>[https://www.stockvault.net/photo/124529/wood-background](https://www.stockvault.net/photo/124529/wood-background) 
   
-## Exmamples
+## Examples
 1. [Do not play Thank-you moves](https://kietpawpan.github.io/9x9go/c001ThankYou.html).
+2. [One-pont jump is often the best](https://kietpawpan.github.io/9x9go/c002OPJ.html).
 ```
 <!DOCTYPE html>
 
