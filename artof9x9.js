@@ -1,9 +1,9 @@
 // artof9x9.js
-// v1.0.1 | August 21, 2024 
+// v1.0.2 | August 24, 2024 
 // Copyright (c) 2024 Monte Kietpawpan
 // All rights reserved.
 
-/* CURSUR : https://codepen.io/bharat-gupta/pen/gZMOQO */
+/* CURSUR : https://codepen.io/bharat-gupta/pen/gZMOQO 
 var cursor = true;
 var speed = 300;
 
@@ -16,6 +16,7 @@ setInterval(() => {
      cursor = true;
    }
 }, speed);
+*/
 
 document.body.style.backgroundImage = "url('wood1.jpg')";
 document.body.style.backgroundRepeat = "repeat-x";
@@ -8557,7 +8558,8 @@ let mgf7 = mgf6.toString();
 let mgf8 = mgf7.replaceAll(",", "+");
 var sgf = eval(mgf8);
 document.getElementById('board').style.backgroundImage = "";
-document.getElementById('board').innerHTML=sgf;
+if(rec==""){document.getElementById('board').innerHTML=b;}
+else{document.getElementById('board').innerHTML=sgf;}
 document.getElementById('mgf').value=comment;
 
 }
@@ -8576,5 +8578,4 @@ $(document).on('input', 'textarea', function () {
         $(this).outerHeight(38).outerHeight(this.scrollHeight); // 38 or '1em' -min-height
     }); 
 }
-
 
