@@ -7,7 +7,7 @@ _A web application for creating HTML/CSS [9 x 9 Go diagram](https://kietpawpan.g
 B[ee];W[ec];B[fg];W[cf];B[dd];W[dc]
 ```
 2. Paste the SGF moves into the input box of the [SGF Viewer](https://kietpawpan.github.io/9x9go/SGFviewer.html), to display the 9 x 9 Go diagram accordingly.
-3. The [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html) is used for converting SGF moves to the MGF codes.
+3. Or, paste the SGF moves into the input box of the [SGF to MGF Convertor](https://kietpawpan.github.io/9x9go/mgf.html), to convert the SGF moves to the MGF moves.
 
 4. Learn to know the MGF code. For example,
 ```
