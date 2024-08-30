@@ -1,71 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.cdnfonts.com/css/source-sans-pro" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
+<link rel="stylesheet" href="artof9x9.css">
+
+
 </head>
 
-
 <style>
-h2{
-font-family: Arial, 'Source Sans Pro';
-}
+
+
 table, th, td {
   border:none;
-  vertical-align: top;
+  vertical-align:top;
   text-align: left;
   color:black;
   font-size:18px;
-  font-family: Helvetica, Arial, Sans-Serif;
+  font-family:'Sofia';
+  resize: both;
+  padding-left:15px;
 }
+
+
   img {
   float: left;
-  width:300px;
-  height:300px;
+  width:210px;
+  height:210px;
   margin-right:15px;
- margin-top:10px;
+  margin-bottom:15px;
+  margin-top:15px;
+
 }
 .lineA{
 height:50px;
 }
+
+.board{
+  background-size:contain; 
+  border-bottom: 1px solid grey;
+}
+
 .text{
-  /*background-color: #F5DEB3;*/
+  background-color:white;
   /*background-image: url(wood1.jpg);*/
   background-size:contain; 
+  border-bottom: 1px solid grey;
+  font-family: "Inconsolata", "Handjet";
+  padding-top:15px;
+  width:400px;
+  line-height:1.5;
 
+}
+
+.paper{
+margin: 500px opx opx 50px;
 }
 
 body{
-/*background-color: #F5DEB3;*/
-/* background-image: url(wood1.jpg), url(wood2.jpg);
-background-repeat: repeat-x , repeat-x;
+/*background-image: url(wood1.jpg);
 background-size:contain; */
-margin-left:50px;
 }
+
+.title{
+  font-family:"Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align:center;
+}
+
+.bt{
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  padding:1px;
+  font-size:18px;
+  color:white;
+  font-weight:bold;
+  font-family: Arial;
+}
+
+.wt{
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align:center;
+  padding:1px;
+  font-size:18px;
+  border: 1px solid black;
+  color:black;
+ font-weight:bold;
+  font-family: Arial;
+
+}
+
 </style>
-<body>
+<body onload="mgf()">
 
-<h2>The Art of 9 &times; 9 Go</h2>
+<div class="title">
+<h1>The Art of 9 &times; 9 Go:<br><font size="16px">Superhuman Edition</font></h1>
+</div>
 <div class="paper">
-<table style="width:100%">
+<table>
   <tr>
-    <td><img src="IMG_6018.jpeg" alt="Pineapple"></td>
-    <td class="text">
-W2 is a minor move. White aims for territorial control. Playing at A would maintain influence in the top left corner and prevent Black from gaining an advantage.
-    </td>
-
+    <td class="board"><img src="004.png"></td>
+    <td class="text">In 9 &times; 9 Go, the best opening is always on the fourth to the fifth lines.</td>
  </tr>
- <tr class="lineA"><td></td><td></td></tr>
+
+
  <tr>
-    <td><img src="IMG_6019.jpeg"></td>
-    <td class="text">White should play W6 at B, then Black will play at C. White can then play at D, creating two strong white groups. </td>
+
+    <td class="board"><img src="003.png"></td>
+    <td class="text"><span class="bt">1</span> is ready to create outside influence if Black is attacked at triangle. This is a good move for the high komi games (<i>e.g.</i>, 6). For higher komi, 7 points or more, only Tengen is the best opening.</td>
   </tr>
-
- <tr class="lineA"><td></td><td></td></tr>
-
   
- 
+  <tr>
+    <td class="board"><img src="004.png"></td>
+    <td class="text">Good.</td>
+  </tr>
 </table>
+
+<textarea id='record' style="width:400px;height:100px;" placeholder="MGF input" hidden>
+
+
+
+<!------------------MGF CODE------------------>
+
+B1ee;w2ec;b3fg;w4cf;b5dd;w6dc;Acd
+
+
+</textarea><br>
+<script src="artof9x9.js"></script>
 
 
 </body>
 </html>
+
